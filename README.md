@@ -54,7 +54,7 @@ Para que o script seja executado automaticamente, siga os passos abaixo para cri
     - **Opções de segurança:**
       _ Marque a opção **"Executar estando o usuário conectado ou não"**. (Obrigatório para automação de servidor).
       _ Marque a opção **"Executar com privilégios mais altos"**.
-      ![Configuração da Aba Geral](https://i.imgur.com/83pZ59C.png)
+      ![Configuração da Aba Geral](assets/img/1.png)
 
 4.  **Na Aba "Disparadores":**
 
@@ -69,7 +69,7 @@ Para que o script seja executado automaticamente, siga os passos abaixo para cri
     - **Programa/script:** Digite `powershell.exe`.
     - **Adicione argumentos (opcional):** Este é o campo mais importante. Copie e cole a linha abaixo, **lembrando de ajustar o caminho para a localização exata do seu script `.ps1`**.
       `   -NoProfile -ExecutionPolicy Bypass -File "F:\Caminho\Para\O\Script\Zipar backups.ps1"` \* **Importante:** Se o caminho para o seu script contiver espaços, as aspas duplas `"` são obrigatórias.
-      ![Configuração da Aba Ações](https://i.imgur.com/k2oT5Zz.png)
+      ![Configuração da Aba Ações](assets/img/2.png)
 
 6.  **Na Aba "Configurações":**
 
