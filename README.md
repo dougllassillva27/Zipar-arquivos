@@ -1,4 +1,4 @@
-# Projeto: Compactador de Backups Automático
+# Compactador de arquivos automático
 
 ## 1. Visão Geral
 
